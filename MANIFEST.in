@@ -1,0 +1,18 @@
+include MANIFEST.in
+include requirements.txt
+include *.json
+include *.md
+include *.py
+include *.txt
+recursive-include vehicle_service_management *.css
+recursive-include vehicle_service_management *.csv
+recursive-include vehicle_service_management *.html
+recursive-include vehicle_service_management *.ico
+recursive-include vehicle_service_management *.js
+recursive-include vehicle_service_management *.json
+recursive-include vehicle_service_management *.md
+recursive-include vehicle_service_management *.png
+recursive-include vehicle_service_management *.py
+recursive-include vehicle_service_management *.svg
+recursive-include vehicle_service_management *.txt
+recursive-exclude node_modules *
